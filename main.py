@@ -82,7 +82,7 @@ def send_discord_alert(url, price, webhook_url):
     data = {
         "content": f"Price drop detected!\nProduct: {url}\nNew Price: ${price}"
     }
-    response = requests.post(webhook_url, json=data)
+    response = requests.post(webhook_url, json=data, timeout=5)
     if response.status_code == 204:
         logging.info(f"Notification sent for {url}")
     else:
