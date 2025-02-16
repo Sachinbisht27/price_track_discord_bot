@@ -1,0 +1,4 @@
+products:
+  - url: "https://www.test.url/"
+  - url: "https://www.test.url/"
+discord_webhook: "https://testdiscordapp.com/api/webhooks/"
