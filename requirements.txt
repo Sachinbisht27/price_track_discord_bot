@@ -1,0 +1,6 @@
+requests
+selenium
+beautifulsoup4
+pyyaml
+webdriver-manager
+sqlite3
