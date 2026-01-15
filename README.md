@@ -1,7 +1,7 @@
 # Price Tracking Bot with Discord Alert System
 
 ## Overview
-This is a Python-based price tracking bot that monitors product prices across various e-commerce websites and sends alerts via Discord when a price drop is detected. 
+This is a Python-based price tracking bot that monitors product prices across various e-commerce websites and sends alerts via Discord when a price drop is detected.
 
 ## Features
 - Scrapes product prices from e-commerce websites.
